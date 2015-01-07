@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Forms</title>
+	
+	<style type="text/css">
+		
+		form{
+			text-align: left;
+		}
+	   fieldset{
+	      width: 450px;
+	      clear: both;
+	      padding: 5px;
+	   }
+	   legend{
+	      font-size: 30px;
+	   }
+	      
+	   label{
+	      text-align: right;
+	      width: 100px;
+	      float: left;
+	   }
+	   input{
+	      width: 200px; 
+	      text-align: left;
+	   }
+	   style#commentBox {text-align: left}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Logo + SalesFinder</h1>
+	</header>
+
+		<form id="userForm" action="server_side_script.php" method="post" > 
+			
+			<fieldset>
+				<legend>Your details</legend>
+				
+				<p>
+					<label for="age">Age:</label>
+					<select>
+						<optgroup>
+							<option value="veryYoung1">-----</option>
+							<option value="veryYoung2">18-24</option>
+							<option value="young">25-34</option>
+							<option value="mature1">35-44</option>
+							<option value="mature2">45+</option>
+						</optgroup>
+
+					</select>
+				</p>
+				<p>
+					<label for="">Male</label>
+					<input type="radio" name="gender" id="male" value="Male"><br>
+					<label for="female">Female</label>
+					<input type="radio" name="gender" id="female" value="Female"><br>
+					
+				</p>
+				<label for="carrot" id="commentBox">Location: &nbsp</label>
+					<textarea rows="1" cols="20" placeholder="Your location"></textarea>
+			</fieldset>		
+			
+			<fieldset id="favourites">
+				<legend>Favourite categories</legend>
+				<p>
+					<label for="menFashion">Men's Fashion</label>
+					<input type="checkbox" name="categories" id="mens" value="mens" /><br>
+					<label for="ladyFashion">Ladies Fashion</label>
+					<input type="checkbox" name="categories" id="ladies" value="ladies" /><br>
+					<label for="kids">For Kids</label>
+					<input type="checkbox" name="categories" id="kids" value="kids" /><br>
+					<label for="health & beauty">Health/Beauty</label>
+					<input type="checkbox" name="categories" id="Health & beauty" value="Health & Beauty" /><br>
+					<label for="books">Books</label>
+					<input type="checkbox" name="categories" id="books" value="books" /><br>
+					<label for="technology">Technology</label>
+					<input type="checkbox" name="categories" id="technology" value="technology" /><br>
+					<label for="gifts">Gifts</label>
+					<input type="checkbox" name="categories" id="gifts" value="gifts" /><br>
+					<label for="homeware">Homeware</label>
+					<input type="checkbox" name="categories" id="homeware" value="homeware" /><br>
+				</p>
+			</fieldset>
+
+			<fieldset id="favourites">
+				<legend>Favourite retailers</legend>
+				<p>
+					<label for="Argos">Argos</label>
+					<input type="checkbox" name="shops" id="argos" value="argos" /><br>
+					<label for="arnotts">Arnotts</label>
+					<input type="checkbox" name="shops" id="Arnotts" value="Arnotts" /><br>
+					<label for="bereshka">Bereshka</label>
+					<input type="checkbox" name="shops" id="bereshka" value="Bereshka" /><br>
+					<label for="Brown Thomas">Brown Thomas</label>
+					<input type="checkbox" name="shops" id="Brown Thomas" value="Brown Thomas" /><br>
+					<label for="Fat face">Fat Face</label>
+					<input type="checkbox" name="shops" id="Fat Face" value="Fat Face" /><br>
+					<label for="H&M">H&M</label>
+					<input type="checkbox" name="shops" id="H&M" value="H&M" /><br>
+					<label for="Next">Next</label>
+					<input type="checkbox" name="shops" id="Next" value="Next" /><br>
+					<label for="PC World">PC World</label>
+					<input type="checkbox" name="shops" id="PC World" value="PC World" /><br>
+					<label for="Super Dry">Super Dry</label>
+					<input type="checkbox" name="shops" id="Super Dry" value="Super Dry" /><br>
+					<label for="Jack'n'Jones">Jack'n'Jones</label>
+					<input type="checkbox" name="Jack'n'Jones" id="Jack'n'Jones" value="Jack'n'Jones" /><br>
+					<label for="Boots">Boots</label>
+					<input type="checkbox" name="Boots" id="Boots" value="Boots" /><br>
+					<label for="Forever21">Forever21</label>
+					<input type="checkbox" name="Forever21" id="Forever21" value="Forever21" /><br>
+					<label for="Pull and Bear">Pull and Bear</label>
+					<input type="checkbox" name="Pull and Bear" id="Pull and Bear" value="Pull and Bear" /><br>
+					<label for="Schuh">Schuh</label>
+					<input type="checkbox" name="Schuh" id="Schuh" value="Schuh" /><br>
+					<label for="Zara">Zara</label>
+					<input type="checkbox" name="Zara" id="Zara" value="Zara" /><br>
+					<label for="Other" id="commentBox">Other &nbsp</label>
+					<textarea rows="4" cols="30" placeholder="Write your favourtie shops here"></textarea>
+				</p>
+			</fieldset>
+
+				<p>
+					<input type="button" value="Finish" onClick="location.href='index.html';" />
+					<input type="button" value="Go back" onClick="location.href='registration_page_1.html';" />
+					<input type="button" value="Cancel and go to homepage" onClick="location.href='index.html';" />
+				</p>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Forms</title>
+	
+	<style type="text/css">
+	   fieldset{
+	      width: 400px;
+	      clear: both;
+	      padding: 5px;
+	   }
+	   legend{
+	      font-size: 30px;
+	   }
+	      
+	   label{
+	      text-align: right;
+	      width: 100px;
+	      float: left;
+	   }
+	   input{
+	      width: 200px; 
+	   }
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Logo + SalesFinder</h1>
+	</header>
+<p>Welcome! Please register your details if you want to personalise your search results. Otherwise please click "cancel" to visit our homepage</p>
+	<form id="userForm" action="server_side_script.php" method="post" > 
+			
+			<fieldset>
+
+				<legend>Details</legend>
+				
+				<p>
+					<label for="lastName">Name:</label>
+					<input type="text" id="lastName" autofocus required />
+				</p>
+				<p>
+					<label for="email">Email:</label>
+					<input type="email" id="email" required />
+				</p>
+				<p>
+					<label for="password">Password:</label>
+					<input type="password" id="password" required />
+				</p>	
+				<p>
+					<label for="password">Confirm Pass:</label>
+					<input type="password" id="password1" required />
+				</p>
+				
+
+			</fieldset>
+			
+				<p>
+					<input type="button" value="Register" onClick="location.href='registration_page_2.html';" />
+					<input type="button" value="Cancel and go to homepage" onClick="location.href='index.html';" />
+				</p>
+	</form>
+</body>
+
+</html>
