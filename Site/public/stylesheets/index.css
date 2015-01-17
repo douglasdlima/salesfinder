@@ -1,4 +1,13 @@
-/*carousel css */
+/*===================FONT==========================*/
+@font-face{
+    font-family: bebasFont;
+    src: url('public/fonts/BebasNeue.otf');
+	}
+body{
+   	font-family: bebasFont;
+   	font-weight: bold;
+    }
+/*==========================carousel css ==============================*/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: 70%;
 	margin: auto;
