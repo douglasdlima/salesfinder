@@ -22,12 +22,19 @@ h1{
 
 /*===========================SEARCH AND ADD SALES BOXES================================*/
 div#searchBox{
-      float: left;
-      width: 60%;
-      padding: 10px;
-      margin: 15px;
-      border: 2px solid black;
-      }
+    float: left;
+    width: 60%;
+    padding: 10px;
+    margin: 40px;
+    border: 2px solid black;
+    }
+div#addSale{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 40px;
+    border: 2px solid black;
+    }
 
 /*==================================FOOTER====================================*/
 footer{
