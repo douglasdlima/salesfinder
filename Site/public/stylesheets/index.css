@@ -3,4 +3,38 @@
 	width: 70%;
 	margin: auto;
 	height: 400px;
+	}
+div#logo{
+	text-align: center
+	}
+h1{
+	color:red;
+	font-size:8em;
+	font-weight:bold;
+	text-align: center;
+	}
+#navBox{
+	background-color: #faaf40;
+	}
+
+#googleIcon{
+	color: #ff0000;
+	margin-right: 10px;
+	}
+#pinterestIcon{
+	color: #ff0000;
+	}
+#twitAndFaceIcon{
+	color: #00a0d1;
+	}
+footer{
+	background-color: black;
+	position:fixed;
+	bottom : 0;
+	width:100%;
+	height : 40px;
+	margin-top : 40px;
 }
+#copyright{
+	color: white;
+	}
