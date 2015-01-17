@@ -4,6 +4,7 @@
 	margin: auto;
 	height: 400px;
 	}
+/*=============================LOGO AND SITENAME====================*/
 div#logo{
 	text-align: center
 	}
@@ -13,10 +14,31 @@ h1{
 	font-weight:bold;
 	text-align: center;
 	}
+
+/*===========================NAVBAR===========================*/
 #navBox{
 	background-color: #faaf40;
 	}
 
+/*===========================SEARCH AND ADD SALES BOXES================================*/
+div#searchBox{
+      float: left;
+      width: 60%;
+      padding: 10px;
+      margin: 15px;
+      border: 2px solid black;
+      }
+
+/*==================================FOOTER====================================*/
+footer{
+	background-color: black;
+	position:fixed;
+	bottom : 0;
+	width:100%;
+	height : 40px;
+	margin-top : 40px;
+}
+/*===================SOCIAL MEDIA ICONS=============================*/
 #googleIcon{
 	color: #ff0000;
 	margin-right: 10px;
@@ -27,14 +49,7 @@ h1{
 #twitAndFaceIcon{
 	color: #00a0d1;
 	}
-footer{
-	background-color: black;
-	position:fixed;
-	bottom : 0;
-	width:100%;
-	height : 40px;
-	margin-top : 40px;
-}
+
 #copyright{
 	color: white;
 	}
