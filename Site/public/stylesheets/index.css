@@ -9,12 +9,12 @@ body{
     }
 /*==========================carousel css ==============================*/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-	width: 70%;
+	width: 100%;
 	margin: auto;
-	height: 400px;
+	height: 500px;
 	}
 /*=============================LOGO AND SITENAME====================*/
-div#logo{
+#logo{
 	text-align: center
 	}
 h1{
@@ -30,20 +30,26 @@ h1{
 	}
 
 /*===========================SEARCH AND ADD SALES BOXES================================*/
-div#searchBox{
+#searchBox{
     float: left;
-    width: 60%;
-    padding: 10px;
-    margin: 40px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
     border: 2px solid black;
     }
-div#addSale{
+#addSale{
     float: left;
-    width: 30%;
-    padding: 10px;
-    margin: 40px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
     border: 2px solid black;
     }
+.thumbnail{
+	margin: auto;
+}
+.caption{
+	text-align: center;
+}
 
 /*==================================FOOTER====================================*/
 footer{
