@@ -1,10 +1,10 @@
 /*===================FONT==========================*/
-@font-face-base{
+@font-face{
     font-family: "bebasFont";
-    src: url("BebasNeue.otf");
+    src: url("../fonts/BebasNeue.otf")format("opentype");
 	}
 body{
-   	font-family-base: "bebasFont";
+   	font-family: "bebasFont";
    	font-weight: bold;
     }
 /*==========================carousel css ==============================*/
@@ -66,7 +66,7 @@ footer{
 	position:relative;
 	bottom : 0;
 	width:100%;
-	height : 40px;
+	height : 50px;
 	margin-top : 40px;
 }
 /*===================SOCIAL MEDIA ICONS=============================*/
