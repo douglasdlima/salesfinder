@@ -4,7 +4,7 @@
     src: url("BebasNeue.otf");
 	}
 body{
-   	font-family: "bebasFont";
+   	font-family-base: "bebasFont";
    	font-weight: bold;
     }
 /*==========================carousel css ==============================*/
