@@ -23,42 +23,47 @@
 </head>
 
 <body>
-<div class="container-fluid">
+
 
   <!--====================================================HEADER: logo & website name ==============================================-->
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="col-lg-3" id="logo"> 
       <img src="public/images/logo.jpg" alt="logo" width="150" height="150"/> 
-    </div>
-    <div class="col-lg-6">
-      <h1>SALES FINDER</h1>
-    </div>
-    <div class="col-lg-3">
-      <div class="navbar-text pull-right"> <a href=""><i class="fa fa-bars fa-3x" id="settingsBar"></i></a> </div>
     </div>
   </div>
 </div>
 
 <!--=======================================================NAVBAR==============================================================-->
-<nav class="navbar-default" id="navBox">
-  <div class="row">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav pull-left">
-      <li><a href="index.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a> </li>
-      <li><a href="about.html"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> ABOUT</a></li>
-      <li><a href="#"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> ADVANCED SEARCH</a></li>
-    </ul>
-    <ul class="nav navbar-nav pull-right">
-      <li><a href="registration_page_1.html"><span class="glyphicon glyphicon-user"></span> REGISTER</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-    </ul>
-  </div>
-</div>
-</nav>
+
+
+<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a> </li>
+              <li><a href="about.html"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> ABOUT</a></li>
+              <li><a href="#"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> ADVANCED SEARCH</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="registration_page_1.html"><span class="glyphicon glyphicon-user"></span> REGISTER</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 
 <!--=================================SEARCH AND ADD PROMOTION BOXES=========================-->
-<div class="container-fluid">
+<div class="container">
+  <div class="row">
   <div class="col-lg-8">
 	<div class="panel panel-default" id="searchBox">
 		<div class="panel-body">
@@ -90,9 +95,10 @@
   </div>
 </div>
 </div>
+</div>
     
 <!--====================================SLIDER & APP====================================-->
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-lg-8"> 
         
@@ -157,15 +163,19 @@
 <!--================================================FOOTER==========================================-->
 <!--================================================FOOTER==========================================-->
 <footer>
-  <div class="navbar-text pull-left">
-    <p id="copyright">&copy; Copyright TSI 2015 </p>
+  <div class="container">
+
+    <div class="navbar-text pull-right"> <a href=""><i class="fa fa-google-plus-square fa-2x" id="googleIcon"></i></a> </div>
+    <div class="navbar-text pull-right" id="faceAndTwitIcon"> <a href=""><i class="fa fa-pinterest-square fa-2x" id="pinterestIcon" ></i></a> </div>
+    <div class="navbar-text pull-right"> <a href=""><i class="fa fa-twitter-square fa-2x" id="twitAndFaceIcon"></i></a> </div>
+    <div class="navbar-text pull-right"> <a href="https://www.facebook.com/salesfinder.ie?fref=ts"><i class="fa fa-facebook-square fa-2x" id="twitAndFaceIcon"></i></a> </div>
+
+    <div class="navbar-text pull-left">
+      <p id="copyright">&copy; Copyright TSI 2015 </p>
+    </div>
   </div>
-  <div class="navbar-text pull-right"> <a href=""><i class="fa fa-google-plus-square fa-2x" id="googleIcon"></i></a> </div>
-  <div class="navbar-text pull-right" id="faceAndTwitIcon"> <a href=""><i class="fa fa-pinterest-square fa-2x" id="pinterestIcon" ></i></a> </div>
-  <div class="navbar-text pull-right"> <a href=""><i class="fa fa-twitter-square fa-2x" id="twitAndFaceIcon"></i></a> </div>
-  <div class="navbar-text pull-right"> <a href="https://www.facebook.com/salesfinder.ie?fref=ts"><i class="fa fa-facebook-square fa-2x" id="twitAndFaceIcon"></i></a> </div>
 </footer>
-</div>
+
 <!--========================JQUERY/JAVASCRIPT LINKS========================================-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
