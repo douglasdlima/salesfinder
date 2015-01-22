@@ -1,0 +1,123 @@
+/*===================FONT==========================*/
+@font-face{
+    font-family: "bebasFont";
+    src: url("../fonts/BebasNeue.otf")format("opentype");
+	}
+body{
+   	
+   	font-weight: bold;
+    }
+/*==========================carousel css ==============================*/
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 100%;
+	margin: auto;
+	height: 420px;
+	}
+/*=============================LOGO AND SITENAME====================*/
+#logo{
+	text-align: center
+	}
+h1{
+	font-family: 'Oswald', sans-serif;
+	color:red;
+	font-size:8em;
+	font-weight:bold;
+	text-align: center;
+	}
+#settingsBar{
+	color: #000000;
+}
+
+/*===========================NAVBAR===========================*/
+#navBox{
+	background-color: #faaf40;
+	}
+
+/*===========================SEARCH AND ADD SALES BOXES================================*/
+
+.logo {
+	margin: 20px;
+}
+
+
+/* rewriting bootstrap classes */
+
+.col-md-4 {
+width: 23.333333%;
+
+}
+
+
+
+.carousel {
+
+width: 735px;
+
+}
+
+.carousel-control.left {
+background: none;
+
+}
+
+.carousel-control.right{
+background: none;
+	
+}
+
+.col-lg-4 {
+width: 21.333333%;
+}
+
+
+
+/* end rewriting bootstrap classes */
+
+.navbar-default {
+	margin: 20px 0 0 0 ;
+}
+#searchBox{
+    float: left;
+    width: 60%;
+    padding: 0px;
+    margin-top: 10px;
+   
+    }
+#addSale{
+    float: left;
+    width: 35%;
+    padding: 0px;
+    margin: 10px 0 0 37px;
+    
+    
+    }
+.thumbnail{
+	margin: auto;
+}
+.caption{
+	text-align: center;
+}
+#features{
+	border: 1px solid;
+	
+	margin: 10px 10px 10px 10px;
+}
+
+/*==================================FOOTER====================================*/
+footer{
+	background-color: black;
+	position:relative;
+	bottom : 0;
+	width:100%;
+	height : 50px;
+	margin-top : 40px;
+}
+/*===================SOCIAL MEDIA ICONS=============================*/
+
+.fa{
+	color: #ffffff;
+	margin-right: 10px;
+}
+#copyright{
+	color: #ffffff;
+	}
