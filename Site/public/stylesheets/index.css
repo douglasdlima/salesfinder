@@ -4,7 +4,7 @@
     src: url("../fonts/BebasNeue.otf")format("opentype");
 	}
 body{
-   	font-family: "bebasFont";
+   	
    	font-weight: bold;
     }
 /*==========================carousel css ==============================*/
@@ -18,7 +18,7 @@ body{
 	text-align: center
 	}
 h1{
-	font-family: "bebasFont";
+	font-family: 'Oswald', sans-serif;
 	color:red;
 	font-size:8em;
 	font-weight:bold;
