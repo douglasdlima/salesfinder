@@ -1,118 +1,144 @@
 /*===================FONT==========================*/
-@font-face{
-    font-family: "bebasFont";
-    src: url("../fonts/BebasNeue.otf")format("opentype");
-	}
+@font-face {
+	font-family: "bebasFont";
+	src: url("../fonts/BebasNeue.otf")format("opentype");
+}
 /*==========================carousel css ==============================*/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: 100%;
 	margin: auto;
 	max-height: 500px;
 	min-height: 200px;
-	}
+}
 /*=============================LOGO AND SITENAME====================*/
-#logo{
+#logo {
 	text-align: center
-	}
-h1{
+}
+h1 {
 	font-family: 'Oswald', sans-serif;
-	}
-	
-h3{
+}
+h3 {
 	font-family: 'Oswald', sans-serif;
-	}
-#settingsBar{
+}
+#settingsBar {
 	color: #000000;
 }
-
 /*===========================NAVBAR===========================*/
-#navBox{
+#navBox {
 	background-color: #faaf40;
-	}
-
+}
 /*===========================SEARCH AND ADD SALES BOXES================================*/
-#searchBox{
-    float: left;
-    width: 100%;
-    padding: 0px;
-    margin-top: 10px;
-    border: 2px solid black;
-    }
-
-.thumbnail{
+#searchBox {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+.thumbnail {
 	margin: auto;
 }
-.caption{
+.caption {
 	text-align: center;
 }
-#features{
+#features {
 	border: 1px solid;
-	
 	margin: 10px 10px 10px 10px;
 }
-
 /*==================================FOOTER====================================*/
-footer{
+footer {
 	background-color: #232323;
-	position:relative;
-	bottom : 0;
-	width:100%;
-	height : 60px;
-	margin-top : 40px;
+	bottom: 0;
+	height: 100px;
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
 }
 /*===================SOCIAL MEDIA ICONS=============================*/
 
-.fa{
+.fa {
 	color: #ffffff;
 	margin-right: 10px;
 }
-#copyright{
+#copyright {
 	color: #ffffff;
-	}
-
-.panel-body p {font-family: 'Oswald', sans-serif; font-size: 24px; color: #434343;}
-h2 {font-family: 'Oswald', sans-serif; font-size: 24px; color: #434343;}
-
+}
+.panel-body p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #434343;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #434343;
+}
 #searchBox, #addSale {
-  border: 1px solid #d3d3d3;
-  float: left;
-  margin-top: 10px;
-  padding: 0;
-  width: 100%;
+	border: 1px solid #d3d3d3;
+	float: left;
+	margin-top: 10px;
+	padding: 0;
+	width: 100%;
 }
-
-.navbar-default {background: #ff8410; border: 0px; border-radius: 0px;} 
-.navbar-default .navbar-nav > li > a {color: #fff;} 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus  {color: #fff;} 
-
+.navbar-default {
+	background: #ff8410;
+	border: 0px;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-} 
-
-.mobileApp {max-height: 356px;}
-
-.teamMembers .col-lg-4 {margin-bottom: 10px;}
-.promos .col-lg-4 {margin-bottom: 10px;}
-
-label{
-	      text-align: right;
-		  padding-right: 20px;
-	   }
-	   
-.formBox {
-  border: 1px solid #d3d3d3;
-  float: left;
-  margin-top: 10px;
-  padding: 0;
-  width: 100%;
-  padding: 20px;
-  border-radius: 5px;
+	background-color: #fff;
 }
-
-.formBox input[type="input"] {width: 70%; height: 40px;}
-.formBox input[type="text"],.formBox input[type="email"],.formBox input[type="password"] {width: 70%; height: 40px;}
-
+.mobileApp {
+	max-height: 356px;
+}
+.teamMembers .col-lg-4 {
+	margin-bottom: 10px;
+}
+.promos .col-lg-4 {
+	margin-bottom: 10px;
+}
+label {
+	text-align: right;
+	padding-right: 20px;
+}
+.formBox {
+	border: 1px solid #d3d3d3;
+	float: left;
+	margin-top: 10px;
+	padding: 0;
+	width: 100%;
+	padding: 20px;
+	border-radius: 5px;
+}
+.formBox input[type="input"] {
+	width: 70%;
+	height: 40px;
+}
+.formBox input[type="text"], .formBox input[type="email"], .formBox input[type="password"] {
+	width: 70%;
+	height: 40px;
+}
 .radio label, .checkbox label {
-  text-align: left;
-  width: 40%;
+	text-align: left;
+	width: 40%;
+}
+.footerLinks {
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+}
+.footerLinks li {
+	display: block;
+	color: #ccc;
+	float: left;
+	width: 20%;
+	text-align: center;
+	border-right: 1px solid #434343;
 }
