@@ -95,6 +95,7 @@ footer{
 .mobileApp {max-height: 356px;}
 
 .teamMembers .col-lg-4 {margin-bottom: 10px;}
+.promos .col-lg-4 {margin-bottom: 10px;}
 
 label{
 	      text-align: right;
@@ -111,4 +112,4 @@ label{
   border-radius: 5px;
 }
 
-.formBox input {width: 70%; height: 40px;}
+.formBox input[type="input"] {width: 70%; height: 40px;}
