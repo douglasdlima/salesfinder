@@ -93,3 +93,22 @@ footer{
 } 
 
 .mobileApp {max-height: 356px;}
+
+.teamMembers .col-lg-4 {margin-bottom: 10px;}
+
+label{
+	      text-align: right;
+		  padding-right: 20px;
+	   }
+	   
+.formBox {
+  border: 1px solid #d3d3d3;
+  float: left;
+  margin-top: 10px;
+  padding: 0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.formBox input {width: 70%; height: 40px;}
