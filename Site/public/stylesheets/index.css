@@ -109,3 +109,4 @@ label{
 }
 
 .formBox input[type="input"] {width: 70%; height: 40px;}
+.formBox input[type="text"],.formBox input[type="email"],.formBox input[type="password"] {width: 70%; height: 40px;}
