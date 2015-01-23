@@ -3,10 +3,6 @@
     font-family: "bebasFont";
     src: url("../fonts/BebasNeue.otf")format("opentype");
 	}
-body{
-   	
-   	font-weight: bold;
-    }
 /*==========================carousel css ==============================*/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: 100%;
