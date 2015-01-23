@@ -71,6 +71,7 @@ footer{
 	}
 
 .panel-body p {font-family: 'Oswald', sans-serif; font-size: 24px; color: #434343;}
+h2 {font-family: 'Oswald', sans-serif; font-size: 24px; color: #434343;}
 
 #searchBox, #addSale {
   border: 1px solid #d3d3d3;
@@ -110,3 +111,8 @@ label{
 
 .formBox input[type="input"] {width: 70%; height: 40px;}
 .formBox input[type="text"],.formBox input[type="email"],.formBox input[type="password"] {width: 70%; height: 40px;}
+
+.radio label, .checkbox label {
+  text-align: left;
+  width: 40%;
+}
