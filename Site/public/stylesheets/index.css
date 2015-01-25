@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 /*===================FONT==========================*/
 @font-face {
 	font-family: "bebasFont";
@@ -46,14 +50,11 @@ h3 {
 	margin: 10px 10px 10px 10px;
 }
 /*==================================FOOTER====================================*/
-footer {
+footer.footer {
 	background-color: #232323;
-	bottom: 0;
-	height: 100px;
-	margin-top: 40px;
-	position: relative;
-	width: 100%;
+	margin-bottom: 0px;
 }
+
 /*===================SOCIAL MEDIA ICONS=============================*/
 
 .fa {
@@ -142,3 +143,5 @@ label {
 	text-align: center;
 	border-right: 1px solid #434343;
 }
+
+
